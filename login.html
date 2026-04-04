@@ -3,16 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style2.css">
     <title>Forms</title>
 </head>
 <body>
-    <form>
-        <label>Name</label>
-        <input>
-        <label>Password</label>
+    <form class="form-group" >
+        <div class ="my-form">
+        <label>First Name</label>
+        <input type="text" placeholder="First Name" name="firstname" required><br></div>
+        <div class ="my-form">
+            <label>Last Name</label>
+        <input type="text" placeholder="Last Name" name="lastname" required><br>
+         </div>
+        <div class ="my-form">
+        <label>Email</label>
+        <input type="email" placeholder="@email" required><br>
+        </div>
+        <div class ="my-form">
+ <label>Password</label>
         <input type="password" value="password">
-        <labe></labe>
-
+        </div> 
+       <div>
+        <labe>Attestation</label>
+       <input type="checkbox" required> I hereby confirm that the above informations are correct.
+       </div>
+        <div> <input class="button" type="submit"></div>
+      
+        </div>
     </form>
+
+    <!-- <table>
+        <tr>
+            <th>SN</th>
+            <th>COURSE TITLE</th>
+            <th>COURSE CODE</th>
+            <th>COURSE UNIT</th>
+        </tr>
+        <td>`
+        1
+        </td>
+        <td>Introduction to Engineering</td>
+        <td>SSG254</td>
+        <td>2</td>
+    </table> -->
 </body>
 </html>
